@@ -4,8 +4,8 @@
 ## Установка
 
 1. npm install
-2. Выполнить команду ### `json-server ./src/db.json --watch --port 3001`
-3. Выполнить команду ### `npm start`
+2. Выполнить команду `json-server ./src/db.json --watch --port 3001`
+3. Выполнить команду `npm start`
 
 
 ### `Вход:`
