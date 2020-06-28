@@ -1,0 +1,142 @@
+.app{
+    padding-top: 100px;
+    height: 750px;
+}
+.home{
+    .contacts {
+        .drawer {
+            .ant-form-item-control-input-content {
+                display: flex;
+                justify-content: space-around;
+            }
+            .ant-input-number {
+                width: 100%;
+            }
+            color: #000000;
+            .ant-drawer-title {
+                text-align: center;
+                font-weight: 700;
+            }
+            
+        }
+        height: 500px;
+        .contacts__header {
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: flex-start
+        }
+        .contacts__search {
+            width: 350px;
+            margin-left: 80px;
+        }
+    }
+
+    .copy{
+       margin: auto auto 0px auto;
+       font-size: 20px;
+       line-height: 25px;
+    }
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    &__sidebar{
+        background-color: rgb(226, 226, 226);
+        width: 400px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(190, 179, 179);
+        border-right: transparent;
+        .home__login {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 35px;
+            align-items: center;
+            font-weight: 700;
+            .login-header{
+                margin-left: 5px;
+                padding-bottom: 3px;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+    &__contacts{
+        width: 100%;
+        background-color: rgb(189, 182, 182);
+        color: #ffffff;
+        position: relative;
+        padding: 20px 40px 20px 40px;
+        border: 1px solid rgb(143, 139, 139);
+        .block__contacts{
+            padding: 20px;
+            height: 100%;
+            border: 2px solid rgb(232, 233, 230);
+            border-radius: 15px;
+        }
+
+    }
+    
+
+    &__contacts{
+        
+        h2{
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: #555454;
+        }
+        .contacts__form{ 
+            margin-left:auto;
+            &-new{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+    .ant-list-split .ant-list-item {
+        border: none;
+    }
+    .ant-card-body  {
+        padding: 5px;
+    }
+    .ant-card-hoverable{
+        cursor: default;
+    }
+    .ant-list-items > div {
+        margin-bottom: 5px;
+    }
+    
+}
+.ant-drawer-content-wrapper {
+    width: 400px;
+}
+.favorite {
+    font-size: 20px;
+    cursor: pointer;
+    &:hover{
+        color: #f7f30f;
+    }
+    &.active {
+        color: #f7f30f;
+    }
+}
+.team {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.blocked {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    &:hover{
+        color: rgb(236, 12, 12);
+    }
+    &.active {
+        color: rgb(236, 12, 12);
+    }
+}

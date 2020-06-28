@@ -1,0 +1,52 @@
+{
+  "login": {
+    "status": 200,
+    "user": {
+      "login": "testing",
+      "password": "123test",
+      "isAuth": false
+    }
+  },
+  "contacts": [
+    {
+      "email": "valeria@mail.ru",
+      "phoneNumber": 94747474,
+      "name": "Валерия",
+      "favorites": true,
+      "blocked": false,
+      "id": 1
+    },
+    {
+      "email": "evgen__924@mail.ru",
+      "phoneNumber": 988884,
+      "name": "Евгений Викторович",
+      "favorites": false,
+      "blocked": false,
+      "id": 4
+    },
+    {
+      "email": "company33_2@mail.ru",
+      "phoneNumber": 933334,
+      "name": "Зам.директора ***U",
+      "favorites": true,
+      "blocked": false,
+      "id": 5
+    },
+    {
+      "email": "mashynya@mail.ru",
+      "phoneNumber": 9333664634,
+      "name": "Мария В.",
+      "favorites": false,
+      "blocked": true,
+      "id": 6
+    },
+    {
+      "email": "manager@mail.ru",
+      "phoneNumber": 99999,
+      "name": "Менеджер от Андреевны",
+      "favorites": false,
+      "blocked": false,
+      "id": 7
+    }
+  ]
+}

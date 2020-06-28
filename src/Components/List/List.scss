@@ -1,0 +1,40 @@
+.home__list{
+      
+    .list{
+        cursor: pointer;
+        &:hover{
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: 0px 1px 4px #000;
+        }
+    }
+    .title {
+        margin-bottom: 40px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #1890ff;
+        span {
+            margin-left: 10px;
+        }
+    }
+    li{
+        a{
+            display: flex;
+            padding: 10px 12px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            width: 100%;
+            align-items: center; 
+            i{
+                margin-right: 10px;
+            }
+        }
+        a.active{
+            border-radius: 4px;
+            box-shadow: 0px 1px 4px #000;
+            cursor: pointer;
+            background: #fff;
+        }
+    }
+}
