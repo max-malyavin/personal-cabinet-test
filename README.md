@@ -5,7 +5,7 @@
 
 1. npm install
 2. Выполнить команду `json-server ./src/db.json --watch --port 3001`
-3. Выполнить команду `npm start`
+3. Выполнить команду в новом терминале `npm start`
 
 
 ### `Вход:`
